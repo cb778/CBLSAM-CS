@@ -3,9 +3,9 @@ Combining BiLSTM and Self-attention mechanism for Code Search
 
 ## Dependency
 Successfully tested in Ubuntu 
-- Python 
-- PyTorch 
-- tqdm 
-- numpy 
+- Python == 3.6 
+- PyTorch == 1.5.0 or newer
+- tqdm == 4.48.2
+- numpy  
 - tables
 - argparse
