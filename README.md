@@ -9,3 +9,11 @@ Successfully tested in Ubuntu
 - numpy  
 - tables
 - argparse
+
+## Code Structures
+
+- `attentionNet.py`: Includes the core module of CBLSAM-CS.
+- `main.py`: The main function entry of the model.
+- `dataset.py`: Dataset loader.
+- `configs`: Basic configuration of the entire model. Each function defines the hyper-parameters for the corresponding model.
+- `utils.py`: Utilities for models and training.
