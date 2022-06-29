@@ -1,7 +1,4 @@
-import sys
-import torch
 import torch.utils.data as data
-import torch.nn as nn
 import tables
 import json
 import random
