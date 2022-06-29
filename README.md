@@ -13,6 +13,7 @@ Successfully tested in Ubuntu
 ## Code Structures
 
 - `attentionNet.py`: Includes the core module of CBLSAM-CS.
+  **(As this work is supported by the Chinese Natural Science Foundation and the Key Fund of Hunan Provincial Education Department, the core code will not be publicized at this stage, and the current core code will be publicized at the first time after the final acceptance of the project is completed, so please understand the inconvenience caused!)**
 - `main.py`: The main function entry of the model.
 - `dataset.py`: Dataset loader.
 - `configs`: Basic configuration of the entire model. Each function defines the hyper-parameters for the corresponding model.
