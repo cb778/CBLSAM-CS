@@ -105,7 +105,7 @@ def validate(valid_set, model, K, sim_measure):
             if device == torch.device("cuda:1"):
                 code_batch = [tensor.cuda(1) for tensor in batch[:6]][0::2]
                 desc_batch = [tensor.cuda(1) for tensor in batch[6:8]][0::2]
-            else:    # 默认cuda()==cuda(0)
+            else:
                 code_batch = [tensor.cuda() for tensor in batch[:6]][0::2]
                 desc_batch = [tensor.cuda() for tensor in batch[6:8]][0::2]
         with torch.no_grad():
